@@ -1,5 +1,5 @@
 # My first blog post - A blog post about blog posts
-This is a brief overvie of the things I learnt setting up my blog and making the first post
+This is a brief overview of the things I learnt setting up my blog and making the first post
 
 1. TOC
 {:toc}
@@ -69,4 +69,4 @@ I'm sure there are a lot more things that can be done, but this seemed like a go
 Ben
 
 vvvvv Our foot note from above
-[^1]: the footnote
+[^1]: This is the footnote.
