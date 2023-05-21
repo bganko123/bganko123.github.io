@@ -1,7 +1,9 @@
 # My first blog post - A blog post about blog posts
-This is the first of many blog posts, these are new exciting times.
+This is a brief overvie of the things I learnt setting up my blog and making the first post
+
 1. TOC
 {:toc}
+
 ## Setting up the blog
 ### Making the repository
 I set up the blog using the guide posted by fastai -> here is the link [links](https://www.fast.ai/posts/2020-01-16-fast_template.html)
@@ -14,7 +16,7 @@ To configure the blogs global settings I edited the *_config.yml* file. This all
 ### Making posts
 The first step is making a file with the correct name. **again** I didn't read the instructions at first and it definitely doesnt work if you don't follow them. The post file mut be named YEAR-MONTH-DAY-filename.md. The date allows the posts to be formatted into chronological order. 
 Once you have the file setup and working correctly it is really just down to formatting. Below are some examples - for me to refer back to more than anything - of different ways to format
-### Formatting options
+## Formatting options
 For starters, you can control the font of the text. For example *italics*, **bold**, `code font`. You can add footnotes [^1] and horizontal lines
 
 ---
@@ -36,32 +38,35 @@ you can add quotes to make things stand out
 
 > Taking a new step, uttering a new word, is what people fear most - Dostoesvky
 
-Images are a little trickier. You first have to put the desired image into the image folder. An then you should be able to link it with the path and %![]% this command
+Images are a little trickier. You first have to put the desired image into the image folder. And then you can link to the image name from that folder
 
-![](/images/logo.png "fast.ai's logo")
+For example, here is an image of my dog causing havoc at puppy preschool
+![](/images/251013527_312706310369794_5735209258452722059_n.jpg "albert causing trouble")
 
-## Code
+Next we have code, there are a few ways to do it.
+You can use just use a general preformatted version
 
-General preformatted text:
+    # do the thing
+    do__the_thing()
 
-    # Do a thing
-    do_thing()
-
-Python code and output:
+Or alternatively you can use python specific code
 
 ```python
-# Prints '2'
-print(1+1)
+# Prints a number
+print(8)
 ```
 
-    2
+    8
 
-## Tables
+Next we have tables. I find these a bit confusing because I don't really know what's what but here is an example anyway
 
 | Column 1 | Column 2 |
 |-|-|
-| A thing | Another thing |
+| hello | Goodbye |
 
-## Footnotes
+I'm sure there are a lot more things that can be done, but this seemed like a good start.
 
-[^1]: This is the footnote.
+Ben
+
+vvvvv Our foot note from above
+[^1]: the footnote
