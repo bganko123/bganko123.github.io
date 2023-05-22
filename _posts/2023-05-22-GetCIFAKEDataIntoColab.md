@@ -8,8 +8,7 @@ I was **struggling** to train and test models based on the CIFAKE data set. I wa
 ## Get your kaggle api token
 First get into kaggle and make an account if you don't already have one. Once you account is made click on the account image in the top write and select settings from the drop down. Scroll down about halfway to the API heading and click create new token. This should start a download of a *kaggle.json* file.
 
-![]("images/kaggle1.png Get api token")
-
+![](images/kaggle1.png "Get api token")
 ## Set up in Collab
 
 In collab set up a new workbook or project. Then run the following:
