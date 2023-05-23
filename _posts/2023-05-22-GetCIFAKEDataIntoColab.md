@@ -13,8 +13,8 @@ First get into kaggle and make an account if you don't already have one. Once yo
 ## Set up in Collab
 
 In collab set up a new workbook or project. Then run the following:
-python
-``` 
+
+``` python
 ! pip install -q kaggle
 from google.colab import files
 files.upload()
@@ -22,8 +22,8 @@ files.upload()
 The should give you the option to upload a file. Browse through your file explorer to find the *kaggle.json* you just downloaded
 
 Next, run these three commands to create a directory, move the *json* and configure the permissions
-python
-```
+
+``` python
 ! mkdir ~/.kaggle
 ! cp kaggle.json ~/.kaggle/
 ! chmod 600 ~/.kaggle/kaggle.json
@@ -31,8 +31,8 @@ python
 ## Getting the Data set
 
 Now you are pretty much could to go. You can access kaggle using your API token. To get the CIFAKE data set simply run the command below and you should see the files appear in the list of files on the right.
-python
-```
+
+``` python
 !pip install kaggle
 import kaggle
 kaggle.api.dataset_download_files('birdy654/cifake-real-and-ai-generated-synthetic-images', path='CIFAKE-dataset', unzip=True)
