@@ -1,4 +1,4 @@
-# My first blog post - A blog post about blog posts
+# My First Blog Post - A Blog Post About Blog Posts
 This is a brief overview of the things I learnt setting up my blog and making the first post
 
 1. TOC
