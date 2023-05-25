@@ -1,4 +1,4 @@
-# Saving a model made in fastai
+# Saving a Model Made in fastai
 
 Training can take a lot of computational time. Ideally, we would be able to save our models so that we can accss them later without having to retrain a new one. This saves a lot of time and effort. Luckily, the fastai library allows this to be done quickly and easily.
 So first we need to train a model, this is the basic training process described throughout the course (this assumes you already have your data blocks set up):
